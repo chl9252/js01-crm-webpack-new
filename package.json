@@ -1,0 +1,39 @@
+{
+  "name": "js01-crm-webpack-new",
+  "version": "1.0.0",
+  "description": "crm-webpack",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open",
+     "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chl9252/js01-crm-webpack-new.git"
+  },
+  "keywords": [
+    "crm",
+    "webpack",
+    "js"
+  ],
+  "author": "Ludmila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chl9252/js01-crm-webpack-new/issues"
+  },
+  "homepage": "https://github.com/chl9252/js01-crm-webpack-new#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.32.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
